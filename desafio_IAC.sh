@@ -23,21 +23,21 @@ chmod -v 777 /publico
 chmod -v 770 /adm
 chmod -v 770 /ven
 chmod -v 770 /sec 
-useradd carlos -c "carlos GRP_ADM" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd -crypt 123)
+useradd carlos -c "carlos GRP_ADM" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd 123)
 passwd carlos -e
-useradd maria -c "maria GRP_ADM" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd -crypt 123)
+useradd maria -c "maria GRP_ADM" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd 123)
 passwd maria -e
-useradd joao -c "joao GRP_ADM" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd -crypt 123)
+useradd joao -c "joao GRP_ADM" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd 123)
 passwd joao -e
-useradd debora -c "debora GRP_VEN" -s /bin/bash -m -G GRP_VEN -p $(openssl passwd -crypt 123)
+useradd debora -c "debora GRP_VEN" -s /bin/bash -m -G GRP_VEN -p $(openssl passwd 123)
 passwd debora -e
-useradd sebastiana -c "sebastiana GRP_VEN" -s /bin/bash -m -G GRP_VEN -p $(openssl passwd -crypt 123)
+useradd sebastiana -c "sebastiana GRP_VEN" -s /bin/bash -m -G GRP_VEN -p $(openssl passwd 123)
 passwd sebastiana -e
-useradd roberto -c "roberto GRP_VEN" -s /bin/bash -m -G GRP_VEN -p $(openssl passwd -crypt 123)
+useradd roberto -c "roberto GRP_VEN" -s /bin/bash -m -G GRP_VEN -p $(openssl passwd 123)
 passwd roberto -e
-useradd josefina -c "josefina GRP_SEC" -s /bin/bash -m -G GRP_SEC -p $(openssl passwd -crypt 123)
+useradd josefina -c "josefina GRP_SEC" -s /bin/bash -m -G GRP_SEC -p $(openssl passwd 123)
 passwd josefina -e
-useradd amanda -c "amanda GRP_SEC" -s /bin/bash -m -G GRP_SEC -p $(openssl passwd -crypt 123)
+useradd amanda -c "amanda GRP_SEC" -s /bin/bash -m -G GRP_SEC -p $(openssl passwd 123)
 passwd amanda -e
-useradd rogerio -c "rogerio GRP_SEC" -s /bin/bash -m -G GRP_SEC -p $(openssl passwd -crypt 123)]
+useradd rogerio -c "rogerio GRP_SEC" -s /bin/bash -m -G GRP_SEC -p $(openssl passwd 123)
 passwd rogerio -e
